@@ -1,0 +1,17 @@
+h1 {
+  color: black;
+  font-size: 30px;
+}
+
+h2 {
+  color: blue;
+  font-size: 24px;
+}
+h3 {
+  font-size: 14px;
+  }
+
+  body {
+   background-image: url("pastelpic.jpg");
+   height: 200px;
+  }
