@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Weather Map</title>
+   <link rel="stylesheet" href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/css/ol.css" type="text/css">
+   <script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/build/ol.js"></script>
+<script type="text/javascript" src = codealongapi.js></script>
+
+</head>
+<body>
+  <p></p>
+  <textarea id="country-name" rows="1" cols ="20">Input a Country</textarea>
+	<button onclick="panToLocation()">Pan to Location</button>
+  <button type = "button" name = "button" onclick="panHome()">Pan home</button>
+
+<p></p>
+
+  <div id="map" class="map"></div>
+	<footer>
+		<p>This tutorial is based on code from: <a href="http://openlayers.org/en/latest/examples/animation.html">Open Layers View Animation</a></p>
+    <p> This map uses the open layers API </p>
+	</footer>
+
+</body>
+</html>
